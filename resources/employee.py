@@ -14,7 +14,7 @@ class Employee:
         return surname if surname != self.forename else None
 
     def add_experience(self) -> None:
-        self.experience += 1
+        self.experience += 2  # Introduced bug
 
     def add_position(self, title: str) -> None:
         self.positions.append(title)
